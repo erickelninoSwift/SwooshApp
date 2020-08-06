@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var logoimages: UIImageView!
     
     @IBOutlet weak var smalldescript: UILabel!
@@ -21,7 +21,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        autolayout()
+        
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (Timer) in
+            self.autolayout()
+        }
     }
     
     func autolayout()
@@ -30,16 +33,12 @@ class ViewController: UIViewController {
         
         backgroundimages.frame = view.frame
         
-        goalin.topAnchor.constraint(equalTo: logoimages.bottomAnchor, constant: 30).isActive = true
-        goalin.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        goalin.leadingAnchor.constraint(equalTo: view.leadingAnchor ,constant: 30).isActive = true
-        goalin.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30).isActive = true
-        
-        
     }
     
     
-
-
+    
+    
+    
+    
 }
 
