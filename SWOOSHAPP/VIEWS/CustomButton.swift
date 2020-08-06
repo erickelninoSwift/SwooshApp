@@ -8,11 +8,6 @@
 
 import UIKit
 
-class BorderButton: UIButton
-    
-{
-    override class func awakeFromNib() {
-        super.awakeFromNib()
-    }
+
     
 }
