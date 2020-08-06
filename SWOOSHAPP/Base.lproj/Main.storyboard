@@ -200,6 +200,10 @@
                         <viewLayoutGuide key="safeArea" id="dXt-eT-xJz"/>
                     </view>
                     <navigationItem key="navigationItem" id="NXp-JJ-grK"/>
+                    <connections>
+                        <segue destination="n15-FB-dTO" kind="custom" identifier="mens" id="fQY-1d-8g5"/>
+                        <segue destination="j6P-MH-pmg" kind="custom" identifier="women" id="jQe-DJ-TSb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zpo-fq-EEO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -298,6 +302,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QAw-8t-lVI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3998.5507246376815" y="98.4375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pXP-6a-1Fc">
+            <objects>
+                <viewController id="j6P-MH-pmg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vSl-Js-scG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="nlG-cF-qPx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7bF-dE-JeH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3999" y="815"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="a5r-Gb-1PZ">
+            <objects>
+                <viewController id="n15-FB-dTO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1K6-Ra-SNH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="4Tc-kM-fDs"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oIc-e7-BFQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vzL-9Y-dHD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3999" y="-572"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hWg-oY-IZM">
