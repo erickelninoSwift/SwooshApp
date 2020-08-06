@@ -205,10 +205,10 @@
             </objects>
             <point key="canvasLocation" x="2989.8550724637685" y="99.776785714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--Beginner Baller View Controller-->
         <scene sceneID="ff4-3r-LxE">
             <objects>
-                <viewController id="2rG-Ww-gA6" sceneMemberID="viewController">
+                <viewController id="2rG-Ww-gA6" customClass="BeginnerBallerViewController" customModule="SWOOSHAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wWn-a4-cGH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -265,7 +265,7 @@
                                     <constraint firstAttribute="height" constant="64" id="11I-uw-Whv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="24"/>
-                                <state key="normal" title="Next">
+                                <state key="normal" title="Finish">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
