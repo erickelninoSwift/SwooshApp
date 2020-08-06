@@ -62,6 +62,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="backgroundimages" destination="rYm-cq-vbK" id="sGr-no-Whn"/>
+                        <outlet property="getstartedbutton" destination="Ai9-3a-Z4w" id="cL2-dy-Azc"/>
+                        <outlet property="goalin" destination="cFX-It-c88" id="sbY-jb-5ue"/>
+                        <outlet property="logoimages" destination="KYV-vu-auE" id="eZD-Vz-90T"/>
+                        <outlet property="smalldescript" destination="8E7-JS-G5p" id="S2D-I7-6wp"/>
+                        <outlet property="subtextongoin" destination="9AR-Yw-2gB" id="mJ5-p4-JfH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
