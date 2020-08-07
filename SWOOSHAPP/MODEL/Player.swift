@@ -11,6 +11,6 @@ import Foundation
 struct Player
 {
     var desiredLeague:String?
-    var playername:String?
+    var username:String  = "Erickelnino"
      
 }

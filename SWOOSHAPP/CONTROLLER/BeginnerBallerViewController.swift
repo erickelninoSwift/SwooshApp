@@ -9,13 +9,22 @@
 import UIKit
 
 class BeginnerBallerViewController: UIViewController {
-
+    
+    var player: Player?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        getdata()
+        
     }
     
-
-
+    func getdata()
+    {
+        if let myplayer = player
+        {
+            print(myplayer.desiredLeague!)
+        }
+    }
+    
+    
 }

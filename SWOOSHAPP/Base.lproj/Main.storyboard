@@ -184,7 +184,7 @@
                                 </state>
                                 <connections>
                                     <action selector="nextbuttonPressed:" destination="mGN-Pi-7Yt" eventType="touchUpInside" id="d9b-Qs-oiY"/>
-                                    <segue destination="2rG-Ww-gA6" kind="show" id="Dzg-mj-Bn2"/>
+                                    <segue destination="2rG-Ww-gA6" kind="show" identifier="segueelnino" id="Dzg-mj-Bn2"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -10,7 +10,7 @@ import UIKit
 
 class DesiredLeagueViewController: UIViewController {
 
-    var myplayer:Player?
+    var myplayer = Player()
     
     @IBOutlet weak var malebutton: BoderButton!
     @IBOutlet weak var female: BoderButton!
@@ -36,18 +36,27 @@ class DesiredLeagueViewController: UIViewController {
     
     @IBAction func coedbuttonPressed(_ sender: Any)
     {
-        leagueselect(leaguetype: "coed") 
+        leagueselect(leaguetype: "coed")
     }
     
   
     @IBAction func nextbuttonPressed(_ sender: Any)
     {
-        print("hello world")
+      print("everything is working as planned")
+        
     }
     
     func leagueselect(leaguetype: String)
     {
-        myplayer?.desiredLeague = leaguetype
+        myplayer.desiredLeague = leaguetype
         nextVC.isEnabled = true
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueelnino"
+        {
+            let secondVC =  segue.destination as! BeginnerBallerViewController
+            secondVC.player = myplayer
+        }
     }
 }
