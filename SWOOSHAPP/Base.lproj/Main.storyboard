@@ -123,6 +123,9 @@
                                         <state key="normal" title="Male">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="malebuttonpressed:" destination="mGN-Pi-7Yt" eventType="touchUpInside" id="V1s-d0-UBj"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3Q-SO-ejK" customClass="BoderButton" customModule="SWOOSHAPP" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="71.666666666666686" width="374" height="68.666666666666686"/>
@@ -131,6 +134,9 @@
                                         <state key="normal" title="Female">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="femalebuttonPressed:" destination="mGN-Pi-7Yt" eventType="touchUpInside" id="v5P-x9-kqN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bi-rL-fW7" customClass="BoderButton" customModule="SWOOSHAPP" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="143.33333333333337" width="374" height="68.666666666666686"/>
@@ -139,6 +145,9 @@
                                         <state key="normal" title="Coed">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="coedbuttonPressed:" destination="mGN-Pi-7Yt" eventType="touchUpInside" id="WbH-3v-Itq"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -174,6 +183,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="nextbuttonPressed:" destination="mGN-Pi-7Yt" eventType="touchUpInside" id="d9b-Qs-oiY"/>
                                     <segue destination="2rG-Ww-gA6" kind="show" id="Dzg-mj-Bn2"/>
                                 </connections>
                             </button>
@@ -201,6 +211,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="NXp-JJ-grK"/>
                     <connections>
+                        <outlet property="Coedbutton" destination="a3Q-SO-ejK" id="7ac-W4-np2"/>
+                        <outlet property="female" destination="a3Q-SO-ejK" id="Ytv-Vc-ORZ"/>
+                        <outlet property="malebutton" destination="OL1-YX-bdG" id="jmc-ct-fPx"/>
+                        <outlet property="nextVC" destination="XlH-fm-VCg" id="8gF-6P-1Sv"/>
                         <segue destination="n15-FB-dTO" kind="custom" identifier="mens" id="fQY-1d-8g5"/>
                         <segue destination="j6P-MH-pmg" kind="custom" identifier="women" id="jQe-DJ-TSb"/>
                     </connections>
